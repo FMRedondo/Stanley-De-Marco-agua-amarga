@@ -20,10 +20,7 @@
 }
 
 .hero{
-    background: url(../img/banner.png);
-    background-color: rgba(0, 0, 0, 0.5);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
     background-repeat: no-repeat;
     width: 100%;
     z-index: 1;
@@ -62,7 +59,6 @@
 }
 
 .hero{
-    background-image:  url("../img/banner.png");
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -304,4 +300,11 @@ footer p{
     font-size: 20px;
     
     
+}
+
+#pastaelegir{
+    width: 200%;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: 'Old Standard TT', serif;
 }
