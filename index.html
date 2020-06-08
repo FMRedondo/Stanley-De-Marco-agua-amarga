@@ -1317,12 +1317,12 @@
     </style>
     <script>
       (function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
       })(window, document, 'script', 'dataLayer', 'GTM-KPLTWP');</script>
     <script src="https://drive.google.com/file/d/1a_Li1f7R5tSbHLqmz_Z_DPrRy23JwI1e/view?usp=sharing"></script>
     <script>
@@ -1452,7 +1452,19 @@
       }
     </script>
 
+    <div class="cajas">
+      <div class="caja">
+        <img src="img/foto1.jpg" alt="">
+      </div>
+      <div class="caja">
+        <img src="img/foto2.jpg" alt="">
+      </div>
+      <div class="caja">
+        <img src="img/foto3.jpg" alt="">
+      </div>
+    </div>
 
+    <div class="clearfix"></div>
 
     <div class="menu__accordion">
 
@@ -1555,7 +1567,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Del Mar ( A elegir con salsa rosa)</div>
                 <div class="menu__product-description">
-                  Mezclum, langostinos, FALTA INGREDIENTE, tomate cherry confitado
+                  Mezclum, langostinos, tomate cherry confitado
                 </div>
               </div>
               <div class="menu__product-price">13,50 €</div>
@@ -1573,22 +1585,22 @@
 
             <div class="menu__product">
               <div class="menu__product-text">
-              <div class="menu__product-name">Aqua</div>
+                <div class="menu__product-name">Aqua</div>
                 <div class="menu__product-description">
-              Lechuga variada, tomate, bacalao marinado, ventresca de atún, aceitunas y salsa romesco
-              </div>
+                  Lechuga variada, tomate, bacalao marinado, ventresca de atún, aceitunas y salsa romesco
+                </div>
               </div>
               <div class="menu__product-price">14,00 €</div>
-              </div>
-              <div class="menu__product">
-                <div class="menu__product-text">
+            </div>
+            <div class="menu__product">
+              <div class="menu__product-text">
                 <div class="menu__product-name">Stanley Di Marco</div>
-                  <div class="menu__product-description">
-                Espinacas frescas, manzana, almendra tostada, vinagreta de miel y mostaza a la antigua
+                <div class="menu__product-description">
+                  Espinacas frescas, manzana, almendra tostada, vinagreta de miel y mostaza a la antigua
                 </div>
-                </div>
-                <div class="menu__product-price">13,00 €</div>
-                </div>
+              </div>
+              <div class="menu__product-price">13,00 €</div>
+            </div>
           </div>
         </div>
       </div>
@@ -1627,11 +1639,11 @@
                 <div class="menu__product-name">Pollo del chef</div>
                 <div class="menu__product-description">
                   Pechuga de pollo a la plancha con champiñones, cebolla, nata y mostaza a la antigua
-                  </div>
+                </div>
               </div>
               <div class="menu__product-price">17,50 €</div>
             </div>
-     
+
           </div>
         </div>
       </div>
@@ -1644,8 +1656,9 @@
         <div class="menu__product-list-container" style="height: 0;">
           <div class="menu__product-list" id="rtcp">
 
-              <p id="pastaelegir">Pasta a elegir: Spaghetti, Tagliatelle, parpadelle, macarrón, Rigatoni y Ñoquis de patata</p>
-          
+            <p id="pastaelegir">Pasta a elegir: Spaghetti, Tagliatelle, parpadelle, macarrón, Rigatoni y Ñoquis de
+              patata</p>
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Carbonara </div>
@@ -1660,7 +1673,7 @@
                 <div class="menu__product-name">Boloñesa </div>
                 <div class="menu__product-description">
                   Carne picada y tomate
-                  </div>
+                </div>
               </div>
               <div class="menu__product-price">10,00 €</div>
             </div>
@@ -1730,7 +1743,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Ravioli de espinacas</div>
                 <div class="menu__product-description">
-                 Con salsa de tomate natural
+                  Con salsa de tomate natural
                 </div>
               </div>
               <div class="menu__product-price">14,00 €</div>
@@ -1755,7 +1768,7 @@
               </div>
               <div class="menu__product-price">15,50 €</div>
             </div>
-          
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Ravioli de Tartufo Bianco</div>
@@ -1765,28 +1778,28 @@
               </div>
               <div class="menu__product-price">16,00 €</div>
             </div>
-          
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Ravioli de Peccorino y pera con salsa de trufa miel</div>
               </div>
               <div class="menu__product-price">14,00 €</div>
             </div>
-          
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Ravioli de langostinos al pil-pil y crema de marisco</div>
               </div>
               <div class="menu__product-price">15,00 €</div>
             </div>
-          
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Cappelli de vieras con crema de marisco</div>
               </div>
               <div class="menu__product-price">16,00 €</div>
             </div>
-          
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Ravioli de salmón a la Mamma Rosa</div>
@@ -1796,15 +1809,15 @@
               </div>
               <div class="menu__product-price">15,50 €</div>
             </div>
-          
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Ravioli de Bacalao y Gamba con tomate natural</div>
               </div>
               <div class="menu__product-price">14,00 €</div>
             </div>
-          
-          
+
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Girasol de Foie y crema de castaña</div>
@@ -1821,15 +1834,15 @@
               </div>
               <div class="menu__product-price">14,50 €</div>
             </div>
-          
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Ravioli de rabo de toro salteado de verduras y guanclacle</div>
               </div>
               <div class="menu__product-price">15,50 €</div>
             </div>
-          
-          
+
+
           </div>
         </div>
       </div>
@@ -1927,7 +1940,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Prosciutto </div>
                 <div class="menu__product-description">
-                 Mozzarella y jamón york
+                  Mozzarella y jamón york
                 </div>
               </div>
               <div class="menu__product-price">11,50 €</div>
@@ -1937,7 +1950,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">champiñón </div>
                 <div class="menu__product-description">
-                 Tomate, mozzarella, jamón york, champiñones
+                  Tomate, mozzarella, jamón york, champiñones
                 </div>
               </div>
               <div class="menu__product-price">12,00 €</div>
@@ -1947,7 +1960,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Tonno </div>
                 <div class="menu__product-description">
-                 atún, cebolla y mozzarella
+                  atún, cebolla y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">12,50 €</div>
@@ -1957,7 +1970,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Bismark </div>
                 <div class="menu__product-description">
-                 Huevo, jamón york y mozzarella
+                  Huevo, jamón york y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">12,00 €</div>
@@ -1967,7 +1980,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Barbacoa </div>
                 <div class="menu__product-description">
-                 Salsa barbacoa, bacon, carne picada, salami y mozzarella
+                  Salsa barbacoa, bacon, carne picada, salami y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">13,00 €</div>
@@ -1977,7 +1990,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Trufa Mía </div>
                 <div class="menu__product-description">
-                 Trufa, pimiento rojo, pesto y mozzarella
+                  Trufa, pimiento rojo, pesto y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">14,00 €</div>
@@ -1987,7 +2000,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Siciliana </div>
                 <div class="menu__product-description">
-                 Anchoas, aceitunas, alcaparras y mozzarella
+                  Anchoas, aceitunas, alcaparras y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">13,00 €</div>
@@ -1997,7 +2010,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Vegetariana </div>
                 <div class="menu__product-description">
-                 alcachofas, champiñones, pimiento, berenjena, aceitunas y mozzarella
+                  alcachofas, champiñones, pimiento, berenjena, aceitunas y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">12,50 €</div>
@@ -2007,7 +2020,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">4 Estaciones </div>
                 <div class="menu__product-description">
-                 Jamón york, champiñones, alcachofas, aceitunas y mozzarella
+                  Jamón york, champiñones, alcachofas, aceitunas y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">13,00 €</div>
@@ -2017,7 +2030,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Salami </div>
                 <div class="menu__product-description">
-                 Salami, huevo y mozzarella
+                  Salami, huevo y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">12,50 €</div>
@@ -2027,7 +2040,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Frutti di Mare </div>
                 <div class="menu__product-description">
-                 Tomate, mariscos y mozzarella
+                  Tomate, mariscos y mozzarella
                 </div>
               </div>
               <div class="menu__product-price">14,00 €</div>
@@ -2037,7 +2050,7 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">4 quesos </div>
                 <div class="menu__product-description">
-                 Gorgonzolla, padano, mozzarella y grana padano
+                  Gorgonzolla, padano, mozzarella y grana padano
                 </div>
               </div>
               <div class="menu__product-price">13,00 €</div>
@@ -2047,13 +2060,13 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Hawaiana 2.0 </div>
                 <div class="menu__product-description">
-                 Tomate mozzarella doble, atún, maiz, piña, jamón york, huevo y cebolla
+                  Tomate mozzarella doble, atún, maiz, piña, jamón york, huevo y cebolla
                 </div>
               </div>
               <div class="menu__product-price">14,00 €</div>
             </div>
-            
-           
+
+
           </div>
         </div>
       </div>
@@ -2087,12 +2100,12 @@
               <div class="menu__product-text">
                 <div class="menu__product-name">Nórdica</div>
                 <div class="menu__product-description">
-                  Tomate, mozzarella, bacalao marinado, huevas de  lumpo, salmón marinado, langostinos y perejil
+                  Tomate, mozzarella, bacalao marinado, huevas de lumpo, salmón marinado, langostinos y perejil
                 </div>
               </div>
               <div class="menu__product-price">15,00 €</div>
             </div>
-           
+
             <div class="menu__product">
               <div class="menu__product-text">
                 <div class="menu__product-name">Costa blanca</div>
@@ -2112,13 +2125,13 @@
               </div>
               <div class="menu__product-price">14,00 €</div>
             </div>
-         
+
           </div>
         </div>
       </div>
 
-      
-      
+
+
 
       <!--  POSTRES CASEROS-->
       <div class="menu__category">
@@ -2181,7 +2194,7 @@
               </div>
               <div class="menu__product-price">6,00 €</div>
             </div>
-           
+
           </div>
         </div>
       </div>
